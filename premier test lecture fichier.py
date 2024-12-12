@@ -6,6 +6,6 @@ def lire_fichier_ics(chemin_fichier):
         contenu = fichier.read()
     return contenu
 
-chemin_fichier = Path(r"C:\Users\marti\Documents\cour\sae 1.05\evenementSAE_15.ics")
+chemin_fichier = Path(r"C:\Users\marti\Documents\cour\SAE-1.05\evenementSAE_15.ics")
 contenu = lire_fichier_ics(chemin_fichier)
 print(contenu)
